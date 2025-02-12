@@ -1,0 +1,11 @@
+﻿@using Lab4.Models
+@model Student
+
+<h1>Your Favorite Student</h1>
+<p>First name: @Model.FirstName</p>
+<p>Last name: @Model.LastName</p>
+<p>Student ID: @Model.StudentID</p>
+<p>Email Address: @Model.EmailAddress</p>
+<p>Description: @Model.Description</p>
+
+<a asp-action="CreateStudent">Back</a>

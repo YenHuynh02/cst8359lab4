@@ -1,0 +1,7 @@
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.exe
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.dll
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.deps.json
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.runtimeconfig.json
+C:\Users\yenhu\OneDrive\Algonquin College\Winter 2025\CST8359 - .Net Enterprise\Lab4\Lab4\obj\Release\net8.0\PubTmp\Out\Lab4.pdb

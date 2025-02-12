@@ -1,0 +1,35 @@
+﻿@{
+	ViewData["Title"] = "Sing";
+	int monkeys = ViewData["monkeys"] as int? ?? 0;
+}
+
+@for (int i = monkeys; i> 0; i--) {
+	string gender = (i % 2 == 1) ? "his" : "her";
+	string parent = (i % 2 == 1) ? "Papa" : "Mama";
+
+	if (i > 1) {
+		<p>@i little monkeys jumping on the bed</p>
+		<p>One fell off and bumped @gender head</p>
+		<p>@parent called the doctor and the doctor said</p>
+		<p>"No more monkeys jumping on the bed!"</p>
+		<br />
+	}
+
+	else if (i == 1) {
+		<p>1 little monkey jumping on the bed</p>
+		<p>He fell off and bumped his head</p>
+		<p>Papa called the doctor and the doctor said</p>
+		<p>"No more monkeys jumping on the bed!"</p>
+		<br />
+	}
+
+	else {
+		<p>No little monkey jumping on the bed</p>
+		<p>None fell off and bumped their head</p>
+		<p>Mama called the doctor and the doctor said</p>
+		<p>"Put those monkeys back in bed!"</p>
+		<br />
+	}
+}
+
+<a asp-action="SongForm">Play Again</a>

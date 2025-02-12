@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - Lab 4</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my page!</h1>
+        <p>Student name: Yen Huynh</p>
+        <p>Student number: 041 068 712</p>
+		<nav>
+			@Html.ActionLink("Home", "Index", "Home") |
+			@Html.ActionLink("Show the song!", "SongForm", "Home") |
+            @Html.ActionLink("Students", "CreateStudent", "Home")
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <p>Copyright by Yen Huynh</p>
+        <p>What layout does? It serves as the main layout for all pages, like header, navigation bar, body, and footer </p>
+        <p>Why do you put those files in those directories?</p>
+        <ol>
+            <li>wwwroot: store static files (CS, JS, images) in ASP.NET Core application.</li>
+            <li>Controllers: perform controll the page</li>
+            <li>Home: store the main components because of the name HomeController.cs</li>
+            <li>Shared: publish it on public</li>
+        </ol>
+    </footer>
+</body>
+</html>

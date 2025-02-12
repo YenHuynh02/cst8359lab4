@@ -1,0 +1,13 @@
+﻿@using Lab4.Models
+@model Student
+
+<h1>Create Your Favorite Student</h1>
+<form method="post" asp-action="DisplayStudent">
+    <input type="text" asp-for="FirstName" placeholder="First Name" required />
+    <input type="text" asp-for="LastName" placeholder="Last Name" required />
+    <input type="number" asp-for="StudentID" placeholder="Student ID" required />
+    <input type="email" asp-for="EmailAddress" placeholder="Email Address" required />
+    <input type="password" asp-for="Password" placeholder="Password" required />
+    <textarea asp-for="Description" placeholder="Description"></textarea>
+    <button type="submit">Submit</button>
+</form>
